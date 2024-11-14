@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio de sesion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/altima/css/style.css">
+    </head>
+    <body>
+        <header>
+
+            <div class="header-text" style="font-size: 50px; margin-bottom: 0; padding-bottom: 0;">ALTIMA</div>
+            <div class="header-text" style="font-size: 20px; margin-top: 0; padding-top: 0;">JOYERIA</div>
+            
+        </header>
+        
+        <div style="width: 20%; display: flex; flex-direction: column; margin: auto; margin-top: 3rem; align-items: center;">
+            <form action="/altima/php/login.php" class="log-form" method="POST">
+                <label for="username" class="log-label">USUARIO
+                    <input type="text" name="username" id="username" class="log-input" >
+                </label>
+                <label for="password" class="log-label">PASSWORD
+                    <input type="password" name="password" id="password" class="log-input" >
+                </label>
+                <input type="submit" value="Ingresar" class="log-submit hover-bt">
+            </form>
+            <a href="https://www.distritojoyero.mx/joyeria/altima/" ><img src="img/logo.png" alt="logotipo altima joyeria" class="top-logo"></a>
+        </div>
+    </body>
+</html>

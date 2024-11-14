@@ -1,0 +1,127 @@
+
+/*Estilos para seccion y elementos dentro del header*/
+.top-logo{
+    width: 18rem;
+    height: auto;
+    margin-top:12rem;
+}
+
+.top-logo:hover{
+    filter: blur(3px);
+
+}
+
+header{
+    width: 100%;
+    height: 6rem;
+    border: black 10px solid;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+.header-text{
+   color: white;
+   margin: auto;
+   letter-spacing: .5rem;
+}
+/*Seccion y elementos dentro del body*/
+ body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+/*Elementos del formulario*/
+ .log-form{
+    width: 100%;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .log-label{
+    width: 100%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    letter-spacing: .15rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+ .log-input{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.747);
+    box-sizing:border-box;
+    font-size: 17px;
+    box-shadow: 3px 3px rgb(82, 82, 82);
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 2rem;
+ }
+
+
+ .log-submit:hover{
+    border: 1px black solid;
+    border-radius: 3px;
+ }
+
+ .log-submit{
+    background-color: white;
+    font-size: 15px;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: .5rem 2rem .5rem 2rem;
+ }
+
+
+ /*Formato a main.html encargada de los clientes*/
+
+ .client-list{
+   width: 100%;
+   height: 55vh;
+   border: 2px black solid;
+   overflow: scroll;
+   box-shadow: 3px 3px 6px  black;
+}
+
+.send-button{
+   background-color: black;
+   color: rgba(199, 199, 199, 0.925);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 12px;
+   letter-spacing:.2rem ;
+   font-weight: lighter;
+   border-radius: 5px;
+   padding: .5rem 5rem .5rem 5rem;
+   margin-top: 1rem;
+}
+
+.hover-bt:hover{
+   border-radius: 5px;
+   filter: invert(1);
+}
+
+.client-info{
+   display: flex;
+   background-color: rgb(238, 238, 238);
+   border: 1px white outset;
+   border-style: outset;
+}
+
+.client-phone, .client-header, .client-email{
+   width: 100%;
+   border: .5px rgb(255, 255, 255) outset;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: lighter;
+   font-size: small;
+   padding: .3rem .3rem;
+}
